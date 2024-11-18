@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoC GEMV Simulation</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #grid { display: inline-grid; grid-template-columns: repeat(6, 1fr); gap: 5px; margin: 20px 0; }
+        .cell { width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
+        button { margin: 0 10px; padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>NoC GEMV Simulation</h1>
+    <div id="grid"></div>
+    <button id="playPause">Play</button>
+    <button id="step">Step</button>
+    <p id="stepCounter">Time Step: 0 / 19</p>
+    <script src="script.js"></script>
+</body>
+</html>
