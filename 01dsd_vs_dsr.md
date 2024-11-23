@@ -62,4 +62,3 @@ To help understand better, you can think of the relationship between DSD and DSR
 - After loading data into DSR, the computation operations (such as `@fmacs`) are performed directly within the registers without needing to repeatedly decode from memory. This greatly enhances hardware performance, allowing Cerebras to maintain high throughput and efficiency when handling deep learning computations.
 
 Your understanding is correct: DSD acts as a descriptor, and DSR is a hardware register that maps these descriptors, ultimately allowing the registers to perform efficient computations. This effectively utilizes the hardware’s capabilities to achieve maximum computational performance.
-
